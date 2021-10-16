@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: dodgerblue;
-  --select-color: dodgerblue;
+  --primary-color: rgb(88, 7, 104);
+  --select-color: rgb(255, 30, 255);
   --success: rgb(15, 158, 2);
   --danger: rgb(214, 23, 23);
 }
@@ -80,7 +80,7 @@ label {
   position: relative;
   top: 20px;
   left: 20px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .selected-label {
@@ -91,7 +91,7 @@ label {
 .best-score {
   position: relative;
   top: -100px;
-  left: 330px;
+  left: 310px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,6 +102,7 @@ label {
 
 .best-score span {
   margin: 0;
+  font-size: 15px;
 }
 
 .best-score span:last-child {
